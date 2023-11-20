@@ -10,5 +10,4 @@ my_fruit_list = my_fruit_list.set_index('Fruit')
 streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
 streamlit.dataframe(my_fruit_list)
 streamlit.text('Example Scenario')
-git status
 # Display the table on the page.
